@@ -1,0 +1,24 @@
+{
+  "vetsApp": {
+    "client": {
+      "home": {
+        "title": "Clients",
+        "createLabel": "Client erstellen",
+        "createOrEditLabel": "Client erstellen oder bearbeiten",
+        "notFound": "No Clients found"
+      },
+      "created": "Client erstellt mit ID {{ param }}",
+      "updated": "Client aktualisiert mit ID {{ param }}",
+      "deleted": "Client gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Client {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Client"
+      },
+      "name": "Name",
+      "lastName": "Last Name",
+      "phone": "Phone"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "vetsApp": {
+    "PetType": {
+      "null": "",
+      "PERRO": "PERRO",
+      "GATO": "GATO"
+    }
+  }
+}

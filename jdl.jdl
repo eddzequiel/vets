@@ -1,0 +1,29 @@
+entity Client {
+name String required
+lastName String required
+phone String required
+}
+
+entity Pet {
+name String required
+type PetType required
+birth ZonedDateTime required
+}
+
+enum PetType {
+  PERRO, GATO
+}
+ 
+relationship ManyToOne {
+	Pet{client} to Client
+}
+
+
+// Set pagination options
+paginate Client, Pet with pagination
+
+// dto * with mapstruct
+
+// Set service options to all except few
+// service all with serviceImpl
+ 

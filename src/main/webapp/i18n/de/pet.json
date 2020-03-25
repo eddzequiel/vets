@@ -1,0 +1,25 @@
+{
+  "vetsApp": {
+    "pet": {
+      "home": {
+        "title": "Pets",
+        "createLabel": "Pet erstellen",
+        "createOrEditLabel": "Pet erstellen oder bearbeiten",
+        "notFound": "No Pets found"
+      },
+      "created": "Pet erstellt mit ID {{ param }}",
+      "updated": "Pet aktualisiert mit ID {{ param }}",
+      "deleted": "Pet gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Pet {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Pet"
+      },
+      "name": "Name",
+      "type": "Type",
+      "birth": "Birth",
+      "client": "Client"
+    }
+  }
+}

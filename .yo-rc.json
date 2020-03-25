@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.eddzequiel.vets",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "vets",
+    "packageName": "com.eddzequiel.vets",
+    "packageFolder": "com/eddzequiel/vets",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZDlkY2UwMzUyOTA2ZTFlNTBjZjcxNmNmNTVjMjAzMDNhOTcxNDQ3MDllNTAwMTM4OTNiMzljN2EwNDg1NzJhNzhlMTJhMjMwNjE3ODEyYTliNWRhYTY0YmI4NTQ0MmQxNjI4NTM3MDZiNDk1ZmY3OTNlYTNmMDE0NTJmZWRmNjM=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "clientFramework": "angularX",
+    "clientTheme": "journal",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1585088065374,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": ["es", "en", "de", "pt-pt"],
+    "blueprints": []
+  }
+}
